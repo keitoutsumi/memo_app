@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'メモ帳',
-      theme: ThemeData(primarySwatch: Colors.amber),
+      theme: ThemeData(primarySwatch: Colors.blue),
       initialRoute: 'listpage',
       routes: <String, WidgetBuilder>{
         'listpage': (BuildContext context) => MemoListPage(),
